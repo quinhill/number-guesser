@@ -1,0 +1,105 @@
+body {
+  margin: 0px;
+  border: 0px;
+}
+header {
+  width: 100%;
+  height: auto;
+  background-color: rgb(64, 64, 65);
+  text-align: center;
+  padding: 10px;
+}
+.header-number {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(241, 68, 136);
+  display: inline-block;
+  margin: 0px;
+  border: 0px;
+}
+.header-guesser {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  display: inline-block;
+  font-weight: lighter;
+  font-size: 50px;
+  margin: 0px;
+  border: 0px;
+}
+form {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+.top {
+  width: 200px;
+  background-color: rgb(208, 210, 211);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 15px;
+  font-size: 20px;
+  margin: 20px;
+}
+.reset-button {
+  width: 440px;
+  background-color: rgb(208, 210, 211);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 15px;
+  font-size: 20px;
+}
+input {
+  width: 440px;
+  margin: 20px;
+  height: 30px;
+  padding: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+input::placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: rgb(202, 204, 204);
+}
+.guess-field {
+  width: 100%;
+  padding-bottom: 0px;
+}
+div {
+  text-align: center;
+  margin: 0px;
+  border-width: 0px;
+}
+.user-last-guess {
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  margin: 0px;
+}
+.nr-last-guess {
+  font-size: 180px;
+  color: rgb(241, 68, 136);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  margin: 0px;
+  border-width: 0px;
+  padding: 0px;
+}
+.guess-eval-text {
+  height: 20px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.that-is {
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  margin: 0px;
+  border-width: 0px;
+}
+.reset-div {
+  margin: 40px;
+}
+
